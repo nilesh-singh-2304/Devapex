@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-const Adm = ({course}) => {
+const Adm = ({course}: any) => {
     const [name, setname] = useState('')
     const [date, setdate] = useState('')
     const [venue, setvenue] = useState('')
@@ -138,8 +138,6 @@ const Adm = ({course}) => {
 </div>
             </div>
             </div>
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/uMI5cNeHTOc?si=pbZSteBzm8YoG-yb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             
 
 <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
@@ -164,7 +162,7 @@ const Adm = ({course}) => {
             </tr>
         </thead>
         <tbody>
-            {course.map((event) => (
+            {course.map((event : any) => (
                 <tr key={event._id} className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     {event.name}

@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import Link from 'next/link'
 
-const Events = ({course}) => {
+const Events = ({course}: any) => {
   return (
     <>
     <div className="bg-[url('https://64.media.tumblr.com/4e9baec5f243fb9fe8b7ba75c70f51cf/tumblr_inline_nohxl1PLTa1ro20i7_540.gif')] mt-0 bg-fixed bg-cover">
@@ -114,7 +114,7 @@ const Events = ({course}) => {
         <h2 className="text-3xl font-extrabold text-gray-800 mb-12 text-center leading-10">Stay updated with the latest blog posts.</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-        {course.map((item) => (
+        {course.map((item: any) => (
           <div key={item._id} className="bg-gray-500 cursor-pointer rounded overflow-hidden group">
           <div className="relative overflow-hidden">
             <img src={item.imgurl} alt="Blog Post 1" className="w-full h-60 object-cover group-hover:scale-125 transition-all duration-300" />
