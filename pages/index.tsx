@@ -247,11 +247,11 @@ export default function Home({course}: any) {
 
         {/* //courses */}
 
-        {/* <div className=" px-4 py-10 font-[sans-serif]">
+         <div className=" px-4 py-10 font-[sans-serif]">
       <div className="max-w-7xl max-md:max-w-lg mx-auto">
         <h2 className="text-3xl font-extrabold text-gray-50">Our Events</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-          {course.map((item) => (
+          {course.map((item : any) => (
             <div key={item._id} className="bg-gray-500 cursor-pointer rounded overflow-hidden group">
             <div className="relative overflow-hidden">
               <img src={item.imgurl} alt="Blog Post 1" className="w-full h-60 object-cover group-hover:scale-125 transition-all duration-300" />
@@ -266,7 +266,7 @@ export default function Home({course}: any) {
           
         </div>
       </div>
-    </div> */}
+    </div> 
 
 
     {/* //testimonials */}
