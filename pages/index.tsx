@@ -128,7 +128,7 @@ export default function Home({course}) {
     </h1>
     <div className="max-w-4xl">
       <p className="mt-5 text-neutral-300 text-lg">
-      At DevApex, we are more than just a coding platform; we are a thriving community where passionate developers, both seasoned professionals and beginners, come together to learn, collaborate, and grow. Whether you're looking to enhance your coding skills, connect with
+      At DevApex, we are more than just a coding platform; we are a thriving community where passionate developers, both seasoned professionals and beginners, come together to learn, collaborate, and grow. Whether you are looking to enhance your coding skills, connect with
       like-minded individuals, or unlock exclusive opportunities, DevApex is your go-to destination.
       </p>
     </div>

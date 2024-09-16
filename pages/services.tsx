@@ -21,7 +21,7 @@ const Serv = () => {
 
         
         <div className="mt-5 max-w-2xl">
-          <img src="https://imgtr.ee/images/2024/08/31/81fdbd797df8c90c76f16ce1a46552d5.png" alt="" />
+          <img src="https://imgtr.ee/images/2024/09/13/903f3b4b5daca3433e5fdd1a2445b87a.png" alt="" />
         </div>
         
 
