@@ -7,6 +7,7 @@ const EventSchema = new Schema(
     name: {type: String , required:true , unique:true},
     date: {type: String , required:true},
     venue: {type: String , required:true },
+    category: {type: String , required:true },
     imgurl: {type: String , required:true },
     link: {type: String , required:true},
     

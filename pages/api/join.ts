@@ -9,36 +9,35 @@ type Data = {
 
 export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse,
+  res: NextApiResponse
 ) {
-    
-        await mongoose.connect('mongodb+srv://Nilesh:9319601021@mongoyt.ubxb7fr.mongodb.net/devapex')
-    console.log(req.body)
+  await mongoose.connect(
+    "mongodb+srv://Nilesh:9319601021@mongoyt.ubxb7fr.mongodb.net/devapex"
+  );
 
-    if(req.method == 'POST'){
-        const name = req.body.name
-        const email = req.body.email
-        const phone = req.body.phone
-        const state = req.body.state
-        const clg = req.body.clg
-        const desc = req.body.desc
+  if (req.method == "POST") {
+    const name = req.body.name;
+    const email = req.body.email;
+    const phone = req.body.phone;
+    const state = req.body.state;
+    const clg = req.body.clg;
+    const desc = req.body.desc;
 
-        let p = new join({
-                    name : name,
-                    email : email,
-                    phone : phone,
-                    state : state,
-                    clg : clg,
-                    desc : desc
-                })
-        await p.save();
+    let p = new join({
+      name: name,
+      email: email,
+      phone: phone,
+      state: state,
+      clg: clg,
+      desc: desc,
+    });
+    await p.save();
 
-        res.status(200).json({ success: true });
-    }
+    res.status(200).json({ success: true });
+  }
 
-    if(req.method == 'GET'){
-        const posts = await join.find();
-        res.status(200).json({ success: true , data: posts});
-    }
-  
+  if (req.method == "GET") {
+    const posts = await join.find();
+    res.status(200).json({ success: true, data: posts });
+  }
 }
