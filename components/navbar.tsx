@@ -26,23 +26,23 @@ const Nav = () => {
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-50 mt-3 w-52 p-2 shadow">
         <li><Link href={"/about"}>About</Link></li>
         <li><Link href={"/events"}>Events</Link></li>
-      <li><Link href={"/team"}>Our Team</Link></li>
-      <li><Link href={"/services"}>Services</Link></li>
+      {/* <li><Link href={"/team"}>Our Team</Link></li> */}
+      {/* <li><Link href={"/services"}>Services</Link></li> */}
       </ul>
     </div>
     {/* <a className="btn btn-ghost text-xl">{`<DevApexIndia>`}</a> */}
-   <Link href={"/"} className="btn btn-ghost text-xl"> <img src="https://imgtr.ee/images/2024/09/13/903f3b4b5daca3433e5fdd1a2445b87a.png" alt="" height={200} width={200} /></Link>
+   <Link href={"/"} className="btn btn-ghost text-xl"> <img src="https://www.imgtr.net/ib/s5l2riCMd1UNZj5_1730748864.png" alt="" height={100} width={100} /></Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
       <li><Link href={"/about"}>About</Link></li>
       <li><Link href={"/events"}>Events</Link></li>
-      <li><Link href={"/team"}>Our Team</Link></li>
-      <li><Link href={"/services"}>Services</Link></li>
+      {/* <li><Link href={"/team"}>Our Team</Link></li> */}
+      {/* <li><Link href={"/services"}>Services</Link></li> */}
     </ul>
   </div>
   <div className="navbar-end">
-    <Link href={'/join'} className="btn">Join us</Link>
+    <Link href={'/join'} className="btn">Contact us</Link>
   </div>
 </div>
     </div>

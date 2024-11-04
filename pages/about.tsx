@@ -19,19 +19,14 @@ const About = () => {
         </p>
 
         
-        <div className="mt-5 max-w-2xl">
-          <img src="https://imgtr.ee/images/2024/09/13/903f3b4b5daca3433e5fdd1a2445b87a.png" alt="" />
-        </div>
-        
-
-        <div className="mt-5 max-w-3xl">
-          <p className="text-lg text-gray-600 dark:text-neutral-300">Welcome to StarkSeek, where code meets community.  Level up your skills, collaborate with fellow developers, and unlock endless possibilities.</p>
+        <div className="mt-5 max-w-full text-9xl font-bold items-center justify-center">
+          StarkSeek
         </div>
 
         
         <div className="mt-8 gap-3 flex justify-center">
           <a className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="#">
-            Join us
+            Contact us
             <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
           </a>
           <a className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800" href="#">
@@ -50,12 +45,9 @@ const About = () => {
             <div className="w-full justify-start items-center gap-12 grid lg:grid-cols-2 grid-cols-1">
                 
                 <div
-                    className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
-                    <div className="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
-                        <img className=" rounded-xl" src="https://imgtr.ee/images/2024/09/13/903f3b4b5daca3433e5fdd1a2445b87a.png" alt="about Us image" />
-                    </div>
-                    <img className="sm:ml-0 ml-auto rounded-xl" src="https://pagedone.io/asset/uploads/1717741215.png"
-                        alt="about Us image" />
+                    className="w-full justify-center pt-5 items-center">
+                    <img className="sm:ml-0 ml-auto rounded-xl" src="https://www.imgtr.net/ib/7IhnL0tPNI7YlUO_1730751045.jpg"
+                        height={800} width={800} alt="about Us image" />
                 </div>
                 <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
                     <div className="w-full flex-col justify-center items-start gap-8 flex">
@@ -64,24 +56,9 @@ const About = () => {
                                 className="text-blue-600 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
                                 Who we are ?</h2>
                             <p className="text-gray-300 text-base font-normal leading-relaxed lg:text-start text-center">
-                            StarkSeek is a dynamic hub created by developers for developers. We understand the challenges
-and aspirations of the coding community, and our mission is to provide a comprehensive platform
-that caters to your every need. From top-tier resources and learning materials to networking events
-and industry insights, StarkSeek is designed to support your journey to excellence.</p>
-                        </div>
-                        <div className="w-full lg:justify-start justify-center items-center sm:gap-10 gap-5 inline-flex">
-                            <div className="flex-col justify-start items-start inline-flex">
-                                <h3 className="text-blue-600 text-4xl font-bold font-manrope leading-normal">33+</h3>
-                                <h6 className="text-gray-200 text-base font-normal leading-relaxed">Years of Experience</h6>
-                            </div>
-                            <div className="flex-col justify-start items-start inline-flex">
-                                <h4 className="text-blue-600 text-4xl font-bold font-manrope leading-normal">125+</h4>
-                                <h6 className="text-gray-200 text-base font-normal leading-relaxed">Successful Events</h6>
-                            </div>
-                            <div className="flex-col justify-start items-start inline-flex">
-                                <h4 className="text-blue-600 text-4xl font-bold font-manrope leading-normal">52+</h4>
-                                <h6 className="text-gray-200 text-base font-normal leading-relaxed">Happy Clients</h6>
-                            </div>
+                            StarkSeek is a pioneer in organizing global hackathons, workshops, and tech events designed to empower students and bridge academia with the industry.
+
+We collaborate with some of the top tech companies like Google, Microsoft, and Adobe to provide students with real-world skills and opportunities.</p>
                         </div>
                     </div>
                     
@@ -103,43 +80,10 @@ and industry insights, StarkSeek is designed to support your journey to excellen
                                     What our vision is ?</h2>
                                 <p
                                     className="text-gray-200 text-base font-normal leading-relaxed lg:text-start text-center">
-                                    We envision a world where every developer has access to the resources, guidance, and community
-they need to succeed. By fostering collaboration, encouraging continuous learning, and connecting
-developers with industry leaders, we aim to elevate the standard of coding education and
-professional development.
+                                    To empower students and institutions through global hackathons, workshops, and tech events, bridging the gap between academia and industry with unparalleled learning opportunities.
+
+To be a catalyst for innovation and growth, enabling students and colleges across India to connect, collaborate, and thrive in the tech world
 </p>
-                            </div>
-                        </div>
-                        <div className="w-full flex-col justify-center items-start gap-6 flex">
-                            <div className="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
-                                <div
-                                    className="w-full h-full p-3.5 rounded-xl border border-gray-700 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                    <h4 className="text-blue-600 text-2xl font-bold font-manrope leading-9">33+ Years</h4>
-                                    <p className="text-gray-300 text-base font-normal leading-relaxed">Influencing Digital
-                                        Landscapes Together</p>
-                                </div>
-                                <div
-                                    className="w-full h-full p-3.5 rounded-xl border border-gray-700 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                    <h4 className="text-blue-600 text-2xl font-bold font-manrope leading-9">125+ Projects
-                                    </h4>
-                                    <p className="text-gray-300 text-base font-normal leading-relaxed">Excellence Achieved
-                                        Through Success</p>
-                                </div>
-                            </div>
-                            <div className="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
-                                <div
-                                    className="w-full p-3.5 rounded-xl border border-gray-700 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                    <h4 className="text-blue-600 text-2xl font-bold font-manrope leading-9">26+ Awards</h4>
-                                    <p className="text-gray-300 text-base font-normal leading-relaxed">Our Dedication to
-                                        Innovation Wins Understanding</p>
-                                </div>
-                                <div
-                                    className="w-full h-full p-3.5 rounded-xl border border-gray-700 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                    <h4 className="text-blue-600 text-2xl font-bold font-manrope leading-9">99% Happy
-                                        Clients</h4>
-                                    <p className="text-gray-300 text-base font-normal leading-relaxed">Mirrors our Focus on
-                                        Client Satisfaction.</p>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -260,8 +204,6 @@ towards excellence in coding.
     <section className="py-24 ">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="mb-14 text-center">
-                  <h2 className="text-4xl text-center font-bold text-blue-600 leading-[3.25rem] mb-6 max-w-max lg:max-w-3xl lg:mx-auto">Developed from scratch for seamless online functionality</h2>
-                  <p className="text-base font-normal text-gray-200 lg:max-w-2xl lg:mx-auto mb-8">Using technology to make finance simpler, smarter and more rewarding. </p>  
                   
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-lg mx-auto md:max-w-2xl lg:max-w-full">
@@ -308,7 +250,6 @@ collaboration is at the heart of what we do. Connect with peers, participate in 
                           <p className="text-xs font-normal text-white ">Expand your professional network by attending our virtual and in-person events. From coding
 bootcamps and hackathons to panel discussions and Q&A sessions with industry leaders, StarkSeek
 offers countless opportunities to connect with fellow developers and potential mentors. </p>
-                          
                       </div>
                   </div>
               

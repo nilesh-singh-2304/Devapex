@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="p-4  md:p-8 lg:p-10">
   <div className="mx-auto max-w-screen-xl text-center">
       <a href="#" className="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">
-          <img src="https://imgtr.ee/images/2024/09/13/903f3b4b5daca3433e5fdd1a2445b87a.png" className='h-20' alt="" />    
+          <img src="https://www.imgtr.net/ib/s5l2riCMd1UNZj5_1730748864.png" className='h-20' alt="" />    
       </a>
       <p className="my-6 text-gray-500 dark:text-gray-400">Your Ultimate Coding Hub</p>
       <ul className="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">

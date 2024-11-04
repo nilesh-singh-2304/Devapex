@@ -21,8 +21,8 @@ const Team = () => {
         </p>
 
         
-        <div className="mt-5 max-w-2xl">
-          <img src="https://imgtr.ee/images/2024/09/13/903f3b4b5daca3433e5fdd1a2445b87a.png" alt="" />
+        <div className="mt-5 max-w-full text-7xl font-bold items-center justify-center">
+          StarkSeek
         </div>
         
 
