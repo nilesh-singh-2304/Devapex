@@ -28,7 +28,7 @@ const Events = ({course}: any) => {
         
 
         <div className="mt-5 max-w-3xl">
-          <p className="text-lg text-gray-600 dark:text-neutral-300">Welcome to DevApex, where code meets community.  Level up your skills, collaborate with fellow developers, and unlock endless possibilities.</p>
+          <p className="text-lg text-gray-600 dark:text-neutral-300">Welcome to StarkSeek, where code meets community.  Level up your skills, collaborate with fellow developers, and unlock endless possibilities.</p>
         </div>
 
         

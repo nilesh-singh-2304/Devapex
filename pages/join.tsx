@@ -96,14 +96,14 @@ const Join = () => {
         Join us
       </h1>
       <p className="mt-1 md:text-lg text-gray-800 dark:text-neutral-200">
-      Ready to take your coding career to the next level? Join DevApex today and unlock a world of
+      Ready to take your coding career to the next level? Join StarkSeek today and unlock a world of
 possibilities. Sign up to access our resources, connect with our community, and start your journey
 towards excellence in coding
       </p>
 
       <div className="mt-8">
         <h2 className="text-lg font-semibold text-gray-800 dark:text-neutral-200">
-          What will I get ? 
+          What StarkSeek I get ? 
         </h2>
 
         <ul className="mt-2 space-y-2">
@@ -244,7 +244,7 @@ towards excellence in coding
 
         <div className="mt-3 text-center">
           <p className="text-sm text-gray-500 dark:text-neutral-500">
-            We will get back to you in 1-2 business days.
+            We StarkSeek get back to you in 1-2 business days.
           </p>
         </div>
       </div>

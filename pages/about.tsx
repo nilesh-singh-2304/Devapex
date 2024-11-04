@@ -25,7 +25,7 @@ const About = () => {
         
 
         <div className="mt-5 max-w-3xl">
-          <p className="text-lg text-gray-600 dark:text-neutral-300">Welcome to DevApex, where code meets community.  Level up your skills, collaborate with fellow developers, and unlock endless possibilities.</p>
+          <p className="text-lg text-gray-600 dark:text-neutral-300">Welcome to StarkSeek, where code meets community.  Level up your skills, collaborate with fellow developers, and unlock endless possibilities.</p>
         </div>
 
         
@@ -64,10 +64,10 @@ const About = () => {
                                 className="text-blue-600 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
                                 Who we are ?</h2>
                             <p className="text-gray-300 text-base font-normal leading-relaxed lg:text-start text-center">
-                            DevApex is a dynamic hub created by developers for developers. We understand the challenges
+                            StarkSeek is a dynamic hub created by developers for developers. We understand the challenges
 and aspirations of the coding community, and our mission is to provide a comprehensive platform
 that caters to your every need. From top-tier resources and learning materials to networking events
-and industry insights, DevApex is designed to support your journey to excellence.</p>
+and industry insights, StarkSeek is designed to support your journey to excellence.</p>
                         </div>
                         <div className="w-full lg:justify-start justify-center items-center sm:gap-10 gap-5 inline-flex">
                             <div className="flex-col justify-start items-start inline-flex">
@@ -174,7 +174,7 @@ professional development.
                      Features & Perks 
                 </h2>
                 <p className="text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto">
-                    Ready to take your coding career to the next level? Join DevApex today and unlock a world of
+                    Ready to take your coding career to the next level? Join StarkSeek today and unlock a world of
 possibilities. Sign up to access our resources, connect with our community, and start your journey
 towards excellence in coding.
                 </p>
@@ -272,7 +272,7 @@ towards excellence in coding.
                               <h3 className="text-lg font-bold xl:text-xl text-white py-5 w-full xl:w-64">
                               Events at Microsoft and Google Offices
                               </h3>
-                              <p className="text-xs font-normal text-gray-300 w-full mb-8 xl:w-64"> As a DevApex member, you have the opportunity to attend select events at these
+                              <p className="text-xs font-normal text-gray-300 w-full mb-8 xl:w-64"> As a StarkSeek member, you have the opportunity to attend select events at these
 prestigious offices. These events provide unparalleled exposure to cutting-edge technology, industry
 insights, and the chance to connect with top professionals in the field </p>
                               
@@ -291,7 +291,7 @@ insights, and the chance to connect with top professionals in the field </p>
                           </div>
                           <h3 className="py-5 text-white text-lg font-bold xl:text-xl">Collaborate with Like-Minded Individuals
                           </h3>
-                          <p className="text-xs font-normal text-white mb-5">Join a vibrant community of developers who share your passion for coding. At DevApex,
+                          <p className="text-xs font-normal text-white mb-5">Join a vibrant community of developers who share your passion for coding. At StarkSeek,
 collaboration is at the heart of what we do. Connect with peers, participate in coding challenges and work on open-source projects together. </p>
                           
                       </div>
@@ -306,7 +306,7 @@ collaboration is at the heart of what we do. Connect with peers, participate in 
                           </div>
                           <h3 className="py-5 text-white text-lg font-bold xl:text-xl">Build wealth with insurance planning</h3>
                           <p className="text-xs font-normal text-white ">Expand your professional network by attending our virtual and in-person events. From coding
-bootcamps and hackathons to panel discussions and Q&A sessions with industry leaders, DevApex
+bootcamps and hackathons to panel discussions and Q&A sessions with industry leaders, StarkSeek
 offers countless opportunities to connect with fellow developers and potential mentors. </p>
                           
                       </div>

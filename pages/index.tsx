@@ -35,7 +35,7 @@ export default function Home({course}: any) {
         
 
         <div className="mt-5 max-w-3xl">
-          <p className="text-lg text-gray-600 dark:text-neutral-300">Welcome to DevApex, where code meets community.  Level up your skills, collaborate with fellow developers, and unlock endless possibilities.</p>
+          <p className="text-lg text-gray-600 dark:text-neutral-300">Welcome to StarkSeek, where code meets community.  Level up your skills, collaborate with fellow developers, and unlock endless possibilities.</p>
         </div>
 
         
@@ -123,13 +123,13 @@ export default function Home({course}: any) {
 <div className="">
   <div className="max-w-5xl mx-auto px-4 xl:px-0 pt-24 lg:pt-32 pb-24">
     <h1 className="font-semibold text-white text-5xl md:text-6xl">
-      <span className="text-[#ff0] ">DevApex:</span>  Your Ultimate Coding Hub
+      <span className="text-[#ff0] ">StarkSeek:</span>  Your Ultimate Coding Hub
 
     </h1>
     <div className="max-w-4xl">
       <p className="mt-5 text-neutral-300 text-lg">
-      At DevApex, we are more than just a coding platform; we are a thriving community where passionate developers, both seasoned professionals and beginners, come together to learn, collaborate, and grow. Whether you are looking to enhance your coding skills, connect with
-      like-minded individuals, or unlock exclusive opportunities, DevApex is your go-to destination.
+      At StarkSeek, we are more than just a coding platform; we are a thriving community where passionate developers, both seasoned professionals and beginners, come together to learn, collaborate, and grow. Whether you are looking to enhance your coding skills, connect with
+      like-minded individuals, or unlock exclusive opportunities, StarkSeek is your go-to destination.
       </p>
     </div>
   </div>
@@ -270,54 +270,6 @@ export default function Home({course}: any) {
 
 
     {/* //testimonials */}
-
-    <div className="my-4 font-[sans-serif] max-w-6xl max-md:max-w-lg mx-auto">
-      <div className="md:mb-28 mb-12 text-center">
-        <h2 className="text-gray-50 text-3xl font-extrabold">What our happy participants say</h2>
-      </div>
-
-      <div className="grid md:grid-cols-3 gap-6 relative">
-        <div
-          className="bg-gradient-to-tr from-[#caf0f8] via-[#ade8f4] to-[#90e0ef] max-w-[65%] h-[145%] w-full -top-16 left-0 right-0 mx-auto rounded-3xl absolute max-md:hidden">
-        </div>
-
-        <div className="h-auto p-6 rounded-2xl mx-auto bg-gray-200 relative max-md:shadow-md">
-          <div>
-            <img src="https://readymadeui.com/profile_2.webp" className="w-10 h-10 rounded-full" />
-            <h4 className="text-gray-800 text-sm whitespace-nowrap font-bold mt-3">John Doe</h4>
-            <p className="mt-0.5 text-xs text-gray-600">Founder of Rubik</p>
-          </div>
-          <div className="mt-4">
-            <p className="text-gray-600 text-sm leading-relaxed">The service was amazing. I never had to wait that long for my food.
-              The staff was friendly and attentive, and the delivery was impressively prompt.</p>
-          </div>
-        </div>
-
-        <div className="h-auto p-6 rounded-2xl mx-auto bg-gray-200 relative max-md:shadow-md">
-          <div>
-            <img src="https://readymadeui.com/profile_3.webp" className="w-10 h-10 rounded-full" />
-            <h4 className="text-gray-800 text-sm whitespace-nowrap font-bold mt-3">Mark Adair</h4>
-            <p className="mt-0.5 text-xs text-gray-600">Founder of Alpha</p>
-          </div>
-          <div className="mt-4">
-            <p className="text-gray-600 text-sm leading-relaxed">The service was amazing. I never had to wait that long for my food.
-              The staff was friendly and attentive, and the delivery was impressively prompt.</p>
-          </div>
-        </div>
-
-        <div className="h-auto p-6 rounded-2xl mx-auto bg-gray-200 relative max-md:shadow-md">
-          <div>
-            <img src="https://readymadeui.com/profile_4.webp" className="w-10 h-10 rounded-full" />
-            <h4 className="text-gray-800 text-sm whitespace-nowrap font-bold mt-3">Simon Konecki</h4>
-            <p className="mt-0.5 text-xs text-gray-600">Founder of Labar</p>
-          </div>
-          <div className="mt-4">
-            <p className="text-gray-600 text-sm leading-relaxed">The service was amazing. I never had to wait that long for my food.
-              The staff was friendly and attentive, and the delivery was impressively prompt.</p>
-          </div>
-        </div>
-      </div>
-    </div>
 
     </div>
     </div>
