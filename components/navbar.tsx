@@ -35,8 +35,8 @@ const Nav = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><Link href={"/about"}>About</Link></li>
-      <li><Link href={"/events"}>Events</Link></li>
+      {/* <li><Link href={"/about"}>About</Link></li> */}
+      {/* <li><Link href={"/events"}>Events</Link></li> */}
       {/* <li><Link href={"/team"}>Our Team</Link></li> */}
       {/* <li><Link href={"/services"}>Services</Link></li> */}
     </ul>
