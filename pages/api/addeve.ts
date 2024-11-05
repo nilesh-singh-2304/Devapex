@@ -26,7 +26,7 @@ export default async function handler(
                     name : name,
                     date : date,
                     venue : venue,
-                    imgurl : imgurl,
+                    imgurl : imgurl, 
                     link : link
                 })
         await p.save();
@@ -36,7 +36,7 @@ export default async function handler(
 
     if(req.method == 'GET'){
         const posts = await event.find();
-        res.status(200).json({ success: true , data: posts});
+        res.status(200).json({ success: true , data: posts})
     }
   
 }
