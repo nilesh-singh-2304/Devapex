@@ -165,7 +165,7 @@ We collaborate with some of the top tech companies like Google, Microsoft, and A
                 <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
                     <div className="w-full flex-col justify-center items-start gap-8 flex">
                         <div className="flex-col justify-start lg:items-start items-center gap-4 flex">
-                            <h6 className="text-gray-400 text-base font-normal leading-relaxed">About Us</h6>
+                            {/* <h6 className="text-gray-400 text-base font-normal leading-relaxed">About Us</h6> */}
                             <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
                                 <h2
                                     className="text-blue-600 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
