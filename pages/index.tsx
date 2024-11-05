@@ -349,7 +349,7 @@ To be a catalyst for innovation and growth, enabling students and colleges acros
     <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
         <h2 className="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 dark:text-white md:text-4xl">Our College Partners</h2>
         <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
-            <a href="#" className="flex justify-center items-center">
+            <a href="#" className="hidden md:flex justify-center items-center">
                        {/* <img src="https://pngimg.com/d/red_bull_PNG10.png" alt="" />                */}
             </a>
             <a href="#" className="flex justify-center items-center">
@@ -363,9 +363,9 @@ To be a catalyst for innovation and growth, enabling students and colleges acros
                       <img src="https://upload.wikimedia.org/wikipedia/en/b/b7/Mnit_logo.png" alt="" />                                                                          
             </a>
             <a href="#" className="flex justify-center items-center">
-                   <img className="scale-150 ml-16" src="https://collegedehradun.com/images/Dev-Bhoomi-Logo.png" height={400} width={400} alt="" />                                                                              
+                   <img className="scale-125 md:scale-150 md:ml-16" src="https://collegedehradun.com/images/Dev-Bhoomi-Logo.png" height={400} width={400} alt="" />                                                                              
             </a>
-            <a href="#" className="flex justify-center items-center">
+            <a href="#" className="hidden md:flex justify-center items-center">
                 {/* <img src="https://mohamadfaizal.com/wp-content/uploads/2017/05/logo-adobe-404px-grey.png" alt="" />                                                                                   */}
             </a>
         </div>
